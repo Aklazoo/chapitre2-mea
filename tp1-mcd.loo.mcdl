@@ -1,0 +1,48 @@
+{
+  "Nom": "tp1-mcd.loo",
+  "Version": 1,
+  "Entites": [
+    {
+      "Id": "ee659ae4-1316-433b-8400-dded25d8dd3f",
+      "Nom": "EMPLOYE",
+      "X": 150,
+      "Y": 160,
+      "Attributs": [
+        {
+          "Nom": "N\u00B0insee",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    },
+    {
+      "Id": "fec17150-979e-45c2-ba5b-9cde1f0a35ba",
+      "Nom": "SERVICE",
+      "X": 390,
+      "Y": 140,
+      "Attributs": [
+        {
+          "Nom": "Code",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "D\u00E9signation",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    }
+  ],
+  "Associations": []
+}
