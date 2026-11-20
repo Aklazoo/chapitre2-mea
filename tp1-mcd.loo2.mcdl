@@ -1,0 +1,68 @@
+{
+  "Nom": "tp1-mcd.loo2",
+  "Version": 1,
+  "Entites": [
+    {
+      "Id": "a2ba695f-ca7e-4e0d-8a53-6833c0a6909b",
+      "Nom": "EMPLOYE",
+      "X": 240,
+      "Y": 80,
+      "Attributs": [
+        {
+          "Nom": "N\u00B0insee",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    },
+    {
+      "Id": "5d8a9eae-0122-45db-8df8-1b397dbbe22f",
+      "Nom": "SERVICE",
+      "X": 600,
+      "Y": 80,
+      "Attributs": [
+        {
+          "Nom": "Code",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "D\u00E9signation",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    }
+  ],
+  "Associations": [
+    {
+      "Pattes": [
+        {
+          "EntiteId": "a2ba695f-ca7e-4e0d-8a53-6833c0a6909b",
+          "Cardinalite": "0,1",
+          "Role": ""
+        },
+        {
+          "EntiteId": "5d8a9eae-0122-45db-8df8-1b397dbbe22f",
+          "Cardinalite": "1,n",
+          "Role": ""
+        }
+      ],
+      "Id": "829b6d3f-6fa1-41b3-8435-de98cb2bdbd0",
+      "Nom": "TRAVAILLER",
+      "X": 420,
+      "Y": 80,
+      "Attributs": []
+    }
+  ]
+}
